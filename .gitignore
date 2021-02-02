@@ -37,9 +37,3 @@ vignettes/*.pdf
 
 # Add ds store
 .DS_Store
-/.DS_Store
-**/.DS_Store
-.DS_Store
-in_class/.DS_Store
-in_class/in_class_01/.DS_Store
-major_assignments/.DS_Store
