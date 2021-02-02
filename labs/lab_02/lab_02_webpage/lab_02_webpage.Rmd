@@ -1,0 +1,45 @@
+---
+title: "JOUR472/772 lab_02 | Packages, Selecting, Sorting"
+author: "Sean Mussenden"
+date: "9/7/2020"
+output:
+  html_document:
+    theme: cerulean
+    highlight: pygments
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Lab overview
+
+This lab serves as an introduction to installing and loading packages, loading data, getting an overview of the data, selecting and sorting. 
+
+This lab has one **objective** for you to complete, and it will walk you step-by-step through completing that objective.  
+
+The **objectives** is:  Download the zip file linked below to your local computer, add it to your GitHub repo, and work through the data notebook (lab_02_workbook.Rmd) step-by-step while watching the video and editing it as instructed. When you are finished, push the edited file to GitHub.com, and submit the link on ELMS. 
+
+## How this lab works
+
+First, download [this zip file](https://github.com/smussenden/20_fall_data_journalism/raw/master/labs/lab_02/lab_02_workbook/lab_02.zip) to your desktop and open it up. [Click the link to download](https://github.com/smussenden/20_fall_data_journalism/raw/master/labs/lab_02/lab_02_workbook/lab_02.zip)  
+
+You should then watch the video below. 
+
+It will guide you through the process of adding the unzipped folder to your local GitHub repo, and opening the data notebook for this lab in RStudio.  
+
+You will then work through the data notebook, making edits as instructed, while watching/listening to the video.  
+
+When you're done, the video will show you how to commit changes to your GitHub repo, push those changes to GitHub.com and submit the URL to ELMS.  
+
+```{r echo=FALSE}
+knitr::include_url("https://www.youtube.com/embed/MuXowdk73GM")
+```
+
+## Lab complete
+
+If you have successfully submitted the link to the edited RMarkdown file in your repository on GitHub.com to the ELMS assignment for this lab, you are done!  
