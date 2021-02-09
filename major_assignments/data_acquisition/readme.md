@@ -4,25 +4,27 @@ This project will give you some real-world experience in trying to get a useful 
 
 ## Why we're seeking data
 
-You’re helping us obtain data that will power an investigative reporting project being done by students at the University of Maryland Philip Merrill College of Journalism (working for the Howard Center for Investigative Journalism at the college).  Your participation is critical to this project’s success!  
+You’re helping us obtain data that could power future investigative work being done by students at the University of Maryland Philip Merrill College of Journalism (working for the Howard Center for Investigative Journalism at the college).
 
-The project is examining evictions by public housing authorities in cities across the country.  Public housing -- government subsidized housing -- is often housing of last resort for low-income people, the thing standing between them and homelessness.  In some cities, we have found, public housing authorities, the agencies charged with housing low-income people, are surprisingly active evictors, and often evicting over small amounts of money.     
+We're going to seek detailed records and data from state lottery agencies across the U.S., to try to answer, at scale, which members of the public are bearing the brunt of financing a system of state-run gambling that supplies a significant portion of the budget in nearly every state.  
 
-By participating in this effort, we hope you will learn a great deal about how to figure out whether a government agency has data, and how to successfully negotiate for access.  This skill is one of the most valuable things a journalist can learn to do.
+This is fundamentally a story of economic inequality, one that's been hard to tell because lottery agencies are notoriously reticent to release data.  Their marketing based on their own analysis of their data: the median player is an upper-middle class person who plays the lottery a few times a year. And that's correct, but it's not *true*.
+
+When researchers and journalists have been able to get their hands on data in select states to do their own analysis based on how much different groups spend on the lottery each year, a truer picture emerges. 
+
+The vast majority of total money spent on the lottery comes from a very small group of players.  The top 5 percent of players account for more than half of lottery sales. The top 20 percent account for nearly 80 percent of lottery sales.  There's evidence that lower-income people, people with less education and African-Americans are over-represented in these groups relative to population. [State Lotteries at the Turn of the Century:Report to the National Gambling Impact Study Commission1](https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/7548/lottrep.pdf?sequence=1&isAllowed=y)
+
+We're going to request from these agencies data to help us examine these questions at scale.
+
 
 ## The data we're seeking
 
-You will be assigned a public housing authority from which to request data and other records.  If possible, we'd like the last five years worth of data.     
-
-* A spreadsheet or other database that contains detailed information about individual evictions, including but not limited to date of initiation, reason, amount of back rent due, amount of fees owed, address, tenant name, age, race, occupants and outcome.
-* A spreadsheet or other database that contains detailed information about billings, payments for legal fees and court costs
-* Electronic copies of court filings related to evictions
-* Aggregated annual statistics on evictions
-* Aggregated annual statistics on eviction-related costs and expenditures
-* A list of buildings owned or operated by the authority with the number of units and unit addresses
-* The authority’s policies and procedures for evictions (or a link to them, if they are available online)
-
-What is public housing? The National Housing Law Project [has a good breakdown](https://www.nhlp.org/resource-center/public-housing/).
+You will be assigned a state lottery agency and will put in a public records request to obtain the following information:
+* The past five years of lottery sales data by retail location for all game types. [Florida example](https://docs.google.com/spreadsheets/d/1GB2335u8s6fr2bJXo1vN0bRkWCLKyeLc/edit?rtpof=true)
+* The past five years of winner claims data by retail location for all game types.
+* Any surveys or studies of the lottery-playing public done by the agency or on behalf of the agency over the past 10 years, and any reports or other materials that use information from those surveys or studies. This should include any surveys/reports/other information about how much different demographic groups or market segments play the lottery -- if available -- both in terms of frequency and total/average spending. This could include marketing segmentation studies, marketing mix studies or any reports/surveys generated Ipsos Reid or similar public opinion research firms. [Example segmentation study from Florida](https://drive.google.com/drive/folders/16tqf8Y5dmWiqAcBXwkrLthKF5jOaXwKp). [Example in depth study from Florida](https://drive.google.com/drive/u/0/folders/16tqf8Y5dmWiqAcBXwkrLthKF5jOaXwKp)
+* Any marketing and advertising plans, including detailed information about how the agency advertises on different platforms. [Example for Florida](https://drive.google.com/drive/u/0/folders/16tqf8Y5dmWiqAcBXwkrLthKF5jOaXwKp)
+* Any marketing mailing lists (email and USPS) maintained by the agency.    
 
 ## Grading and Deadlines
 
@@ -30,26 +32,35 @@ This project is worth 10 percent of your total final grade.
 
 Your grade does not depend on whether you successfully get the data we are requesting, though certainly I hope that happens.  
 
-Your grade does depend on whether you display a solid, steady, and intelligent effort that takes advantage of your journalistic skills, your knowledge of the law and the application of the approaches we discuss in class.  Your will demonstrate to me that you are making that effort by clearly and concisely discussing your successes and failures in the milestone memos you submit for review.
+Your grade does depend on whether you display a solid, steady, and intelligent effort that takes advantage of your journalistic skills, your knowledge of the law and the application of the approaches we discuss in class.  
+
+Your will demonstrate to me that you are making that effort by clearly and concisely discussing your successes and failures in the milestone memos you submit for review.
 
 The grading breaks down this way.
 
-* Interim status updates - 40 percent total
-  * Week 4 update (Milestone 1) - 20 percent
-    * Detail your reporting efforts over the last two weeks to learn as much as you can about whether or not the agency has the records we are seeking.  Among the questions you should answer: Who have you talked to?  What have they told you about the records we are seeking? Which ones do they keep?  Are they in an electronic format? By what specific names does the agency refer to the records?  If all the information is stored in a central database, what is it called?  Are they willing to give us some or all of the records without submitting a public records request? Also submit a link to your contact log.
-  * Week 6 update (Milestone 2) - 20 percent
-    * Provide a brief update on the status of your negotiations with the agency for these records, in approximately 100 words. If a public information act request will be required to obtain the records, write up a sample request that incorporates information you have uncovered during your reporting (i.e. the names of specific databases). Also submit a link to your contact log.  
-* Week 8 Final memo (Milestone 3) - 50 percent
+* Interim status updates - 10 percent total
+  * Week 3 update (Milestone 1) - 10 percent
+    * Do web-research in preparation for sending a public records request to the agency.  Does any of the data we're seeking exist online? Are there aggregated records on the website that might hint at the existence of raw data that aren't stored online? If it's not available online, are their clues on the website that the information exists? Who at the agency should we send public records requests to?  You can make calls to the agency, but it's not required.
+  * Week 4 update (Milestone 2) - 10 percent
+    * Send in a public records request requesting the data, using a template and a letter approved by me.  You will use the information gathered for your previous update to sharpen your request. After you send the letter in, call to make sure someone got it.
+    * Update your contact log with any information on outreach.  
+  * Week 6 update (Milestone 3) - 10 percent
+    * Contact your agency to check on the status of your request and respond to any questions from them about the nature of your request or payment or any other matters.  
+    * Update your contact log with any information on outreach.
+* Week 8 Final memo (Milestone 4) - 30 percent
     * In a memo of approximately 1000 words, you will describe your efforts in detail to obtain the requested data from your agency. You should cover the following points.
-      * About the reporting: who did you talk to and what did you learn in your efforts to gather as much information as possible about the data before submitting a request? How did this help you formulate a better request?
+      * About the reporting: what did you learn in your efforts to gather as much information as possible about the data before submitting a request? How did this help you formulate a better request?
       * About the law: How did your use of the law factor into your efforts to obtain the data?  What legal points did the agency raise?  What legal points did you raise?
       * About the negotiation: Tell us about your contacts with the agency. Did officials put up barriers to access or accommodate you? Did they object to releasing the data in electronic form? What was the outcome?
       * Looking ahead: If you have not obtained the data, what steps are you planning to take next?  Have you followed up recently with your agency? What have they told you?
       * Lessons learned: What did you learn from this project that you might be able to apply to future reporting efforts and that would be useful for other students to know?  Did you learn anything about yourself? Your insights here are an important feature of the assignment.
 * Week 9 Presentation (Lightning Talk) - 10 percent
      * In week 9, you will update the class verbally on two things in a presentation with a hard cap of three minutes:
-      * Where your data request stands.  Have you obtained the data? If not, why?
-      * Tell us a brief story about a single part of the data acquisition process, and the lesson you learned from it that you think is worth sharing from the class.  
+     * Where your data request stands.  Have you obtained the data? If not, why?
+     * Tell us a brief story about a single part of the data acquisition process, and the lesson you learned from it that you think is worth sharing from the class.  
+* Rest of semester follow-up - 10 percent
+    * If you have not obtained all of your data and information by the time of the presentation, you should continue connecting with your agency in an attempt to do so.  
+    * You will turn in an update at the end of the semester giving me the data and information, or detailing next steps.  
 
 
 ## Contact log
@@ -81,13 +92,10 @@ When you do request the database, you will ask for a waiver of fees in any writt
 Three key things to keep in mind:
 
 * In talking with agencies, you should always identify yourself as a reporter for the Howard Center for Investigative Journalism, a non-profit investigative reporting unit based in Maryland.  If someone asks if you're a student, please say yes, but don't volunteer that you're a student or that this is for a class.  We are seeking information that could be used in a news story.
-* Explain that you're working on a national project on evictions and are submitting public records requests to public housing authorities that manage and operate public housing. Confirm that they do. Some smaller housing authorities don’t have their own housing and provide housing assistance through other programs, such as Section 8. We’re only interested in those that manage their own public housing. So if you’ve been assigned an PHA that doesn’t have public housing, contact Sean right away, so he can give you another one. I've confirmed most of these places do have public housing.
-* This is a reporting project. You may need to do web research to identify the correct agencies to contact, and the people in those agencies to contact. But it will take a lot more than web research.  You will need to call people and email them to identify who keeps the data, what it's called, what's in it, and attempt to coax it out of them -- either with a public records request or without one. And you will need to be politely persistent in dealing with them.  If you tell me you sent someone an email and didn't hear back for two weeks and didn't follow up with several phone calls, that is inadequate.  
+* Explain that you're looking to gather information about lottery customers and who plays, but don't give additional information without chatting with me first.  
 * When requesting data for this project, you shouldn’t immediately volunteer why you’re requesting data or share details of the project.  But during negotiations for access to data, you may find it necessary to share some details, and that’s okay.  
 
 
-## Housing authority assignments
+## State assignments
 
-We're going to be requesting data from the 20 largest cities in the U.S. You have been assigned a specific housing authority, in a specific city.  Please note that some cities have more than one housing authority, so be sure to stick to the one I've assigned.
-
-You can find your [random assignments in this spreadsheet](https://docs.google.com/spreadsheets/d/1vlwv9BxF_MWiedgu_bjmS49ubAyEurtheUvtTzrzyPU).
+You can find your [random assignments in this spreadsheet](https://docs.google.com/spreadsheets/d/1Jtqc_4zZljEoXokFruVmeOTUhRSLHVSxyjKBWdNnT9A/edit#gid=802602990).
