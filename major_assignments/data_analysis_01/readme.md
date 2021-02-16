@@ -14,7 +14,6 @@ Working with your team, you will:
   * What did the reporter(s) do to bring the story to life, beyond the data findings? Did they use the data as a tool to find and tell a compelling story? Was their approach effective? Why?     
   * How did the reporter(s) communicate their specific data findings in the story? How could it have been improved?
   * How did the reporter(s) communicate any flaws or shortcomings in the data or analysis method that could affect their findings? Did they make it easy for readers to see their work?
-  * Where did the reporter(s) get the idea to do the story in the first place? What challenges did they encounter in developing the story? You will probably need to contact them or do some web research.
   * Where did the data set(s) come from?  Did they have to build the data set themselves? Did they have to do extensive work to clean and prepare the data before analysis?       
 * Present your findings to the class by:
   * Giving a short, group presentation (about 5 minutes) on key points from your memo.
@@ -40,7 +39,7 @@ This project is worth 20 percent of your total final grade.
 
 ## Groups
 
-The groups I've assigned are [here](https://umd.instructure.com/courses/1288268/groups#tab-73804).
+The groups I've assigned are [here](https://umd.instructure.com/courses/1300031/groups#tab-78546).
 
 ## Stories
 
