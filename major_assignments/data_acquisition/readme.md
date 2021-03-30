@@ -55,9 +55,8 @@ The grading breaks down this way.
       * Looking ahead: If you have not obtained the data, what steps are you planning to take next?  Have you followed up recently with your agency? What have they told you?
       * Lessons learned: What did you learn from this project that you might be able to apply to future reporting efforts and that would be useful for other students to know?  Did you learn anything about yourself? Your insights here are an important feature of the assignment.
 * Week 9 Presentation (Lightning Talk) - 10 percent
-     * In week 9, you will update the class verbally on two things in a presentation with a hard cap of three minutes:
-     * Where your data request stands.  Have you obtained the data? If not, why?
-     * Tell us a brief story about a single part of the data acquisition process, and the lesson you learned from it that you think is worth sharing from the class.  
+     * In week 9, you will update the class verbally on two things in a presentation with a hard cap of one minute:
+     * Tell us one thing you learned during the the data acquisition process, and the event that caused you to learn that lesson. What will help you do similar requests in the future?  
 * Rest of semester follow-up - 10 percent
     * If you have not obtained all of your data and information by the time of the presentation, you should continue connecting with your agency in an attempt to do so.  
     * You will turn in an update at the end of the semester giving me the data and information, or detailing next steps.  
