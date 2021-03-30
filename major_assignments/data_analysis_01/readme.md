@@ -31,8 +31,13 @@ This project is worth 20 percent of your total final grade.
   * Turn in, via GitHub, your final data notebook that contains the code to load, clean, analyze and reproduce your story's central findings. It should be well-formatted and well-structured, using the methods described in this class. It should contain text and comments to put your findings in context. I should be able to run it without errors. It should be free of factual and grammatical errors. You'll also turn in a ZIP file that contains both your data notebook and all accompanying data.
   * As a Google Doc, turn in the critical analysis memo as described in "How This Works".
 * Deliverable 4 (week 10 or week 11) - 20 percent
-  * Giving a short, group presentation (about 5 minutes) on key points from your memo.
-  * Leading the class in a screen-share walkthrough of one finding from your data notebook.
+  * Prepare a five-slide (not including title slide) Google Slides presentation that covers each of the following 5 points and give a 5-minute presentation to accompany. 
+    1. Briefly summarize the main findings of the story.
+    2. Where did the data set(s) come from?  Did the reporters have to build the data set themselves? Did they have to do extensive work to clean and prepare the data before analysis? 
+    3. What did the reporter(s) do to bring the story to life, beyond the data findings? Who were the characters in the story, and how did they relate to the data analysis?  
+    4. How did the reporter(s) communicate the data findings at the core of the story?
+    5. If you were reporting and telling the story, is there anything you would have done differently?
+  * (5 minutes) Lead the class in a screen-share, step-by-step walkthrough of one finding from your data notebook, with a preference towards something particularly complex or challenging. Work with Sean to pick one out. Explain the original data structure, and then show step-by-step what you did to confirm the finding.  
 * Peer review and teamwork - 10 percent
   * Your teammates will be asked to anonymously review your level of effort and contribution to the project. No one will see these reviews but me. I will use these reviews, in concert with my own observations, as a guide in determining this portion of your grade. This is designed to make sure everyone on the team pulls their weight.   
 
