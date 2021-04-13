@@ -13,12 +13,13 @@ I'm going to show you how you can get access to this data through a handy R pack
 
 ## Load libraries
 
-First, load the libraries you'll need for this lab.  We're loading the tidyverse and tidycensus. 
+First, load the libraries you'll need for this lab.  We're loading the tidyverse and tidycensus and censusxy.  
 
 For more on Tidycensus, visit [this page](https://walker-data.com/tidycensus/). 
 
 You'll also need to sign up for a free API key, a password of sorts, to get access to the census API. Sign up for you own [here](https://api.census.gov/data/key_signup.html)
 
+More on censusxy in a bit. 
 
 ```{r}
 # Tidyverse
@@ -27,6 +28,10 @@ library(tidyverse)
 # Load Tidycensus after installing if necessary
 #install.packages(tidycensus)
 library(tidycensus)
+
+# Load censusxy for geocoding
+# 
+library(censusxy)
 
 # Store census API key
 # Use mine for now, in the future use yours
@@ -143,8 +148,20 @@ census_tract_stats <- get_acs(geography = "tract", variables = c( "B01001_001","
 
 ```
 
+### Geocoding
+Here's an example of how to take a list of addresses and, using the censusxy package, geocode them to get tract. 
+
 ```{r}
-# To figure out census tract for your stores, and we can review this next week, we can use a geocoding service like https://slu-opengis.github.io/censusxy/reference/index.html
+# use a geocoding service like https://slu-opengis.github.io/censusxy/reference/index.html
 
+# Read in csv of addresses
 
+sample_addresses <- read_csv("address_file.csv")
+
+# Produce geocoded dataframe
+geocoded_sample <- cxy_geocode(sample_addresses , street = 'address', city = 'city', state = 'state', zip = 'zip',return='geographies',benchmark='Public_AR_Current',vintage='Current_Current',output='full') %>%
+  mutate(geoid=paste0(cxy_state_id,cxy_county_id,cxy_tract_id)) %>%
+  select(geoid, everything())
+	
+geocoded_sample
 ```
