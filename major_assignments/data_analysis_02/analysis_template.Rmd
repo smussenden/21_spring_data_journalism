@@ -1,0 +1,75 @@
+---
+title: "Data Analysis Memo Template"
+author: "Authors"
+date: "5/11/2021"
+output:
+  html_document:
+    theme: cerulean
+    highlight: pygments
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction 
+This notebook accompanies my pitch memo for a story on inequity in lottery spending.  It describes the approach I took to arrive at the key findings explained in detail in the memo. The findings are:
+
+* [Summarize key finding 1]
+* [Summarize key finding 2]
+* [Summarize key finding 3]
+* etc...if you have more findings. 
+
+## Load libraries
+Loading required libraries for this analysis.
+
+```{r echo=FALSE, message=FALSE}
+# Load libraries 
+```
+
+## Load and Cleaning Data
+[In two to three paragraphs, describe generally what data sets you used to produce the analysis below, how you got them, and what information they contain.  Explain what a row in each data set means, and describe key columns. DO NOT DESCRIBE ALL DATA SETS YOU USED THROUGH THE WHOLE PROCESS, JUST THOSE THAT YOU NEED TO LOAD TO SUPPORT FINDINGS DESCRIBED HERE.]
+
+```{r}
+# Load and clean required data
+
+```
+
+## Key Findings
+
+### Key Finding 1
+
+* **Finding text**: [Write your finding succinctly here. It should match exactly the text of your memo]
+* **Finding explanation**: [Explain any additional context and caveats that I need to fully understand your finding. Describe any examples (i.e. a store, a zip code, a census tract) around which you might focus additional reporting to bring this finding to life.]
+
+```{r}
+# Put thoroughly commented code to reproduce the finding, and output a table with the results below the codeblock.  Only include code that is strictly necessary to reproduce the finding. Cut everything else!  
+
+```
+
+### Key Finding 2
+
+* **Finding text**: [Write your finding succinctly here. It should match exactly the text of your memo]
+* **Finding explanation**: [Explain any additional context and caveats that I need to fully understand your finding. Describe any examples (i.e. a store, a zip code, a census tract) around which you might focus additional reporting to bring this finding to life.]
+
+```{r}
+# Put thoroughly commented code to reproduce the finding, and output a table with the results below the codeblock.  Only include code that is strictly necessary to reproduce the finding. Cut everything else!  
+
+```
+
+### Key Finding 3
+
+* **Finding text**: [Write your finding succinctly here. It should match exactly the text of your memo]
+* **Finding explanation**: [Explain any additional context and caveats that I need to fully understand your finding. Describe any examples (i.e. a store, a zip code, a census tract) around which you might focus additional reporting to bring this finding to life.]
+
+```{r}
+# Put thoroughly commented code to reproduce the finding, and output a table with the results below the codeblock.  Only include code that is strictly necessary to reproduce the finding. Cut everything else!  
+
+```
+
+
+-30-
