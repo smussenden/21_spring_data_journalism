@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introduction 
-This notebook accompanies my pitch memo for a story on inequity in lottery spending.  It describes the approach I took to arrive at the key findings explained in detail in the memo. The findings are:
+This notebook accompanies our pitch memo for a story on inequity in lottery spending.  It describes the approach we took to arrive at the key findings explained in detail in the memo. The findings are:
 
 * [Summarize key finding 1]
 * [Summarize key finding 2]
