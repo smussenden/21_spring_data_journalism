@@ -71,31 +71,31 @@ county_mask_use <- read_csv("https://github.com/nytimes/covid-19-data/raw/master
 fips_codes
 
 ### Read in stored data pulled from NYT Github on Aug 31
-covid_county <- read_csv("covid_county_current_08_31_2020.csv") %>%
+covid_county <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv") %>%
   filter(!state %in% c("Northern Mariana Islands","Puerto Rico","Virgin Islands", "Guam")) %>%
   filter(!county %in% c("Unknown")) %>%
   select(fips_code = fips, county, state, date, cases, deaths)
 
-covid_state <- read_csv("covid_state_current_08_31_2020.csv") %>%
+covid_state <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv") %>%
   filter(!state %in% c("Northern Mariana Islands","Puerto Rico","Virgin Islands", "Guam"))  %>%
   select(fips_code = fips, state, date, cases, deaths)
   
-covid_us <- read_csv("covid_us_current_08_31_2020.csv") %>%
+covid_us <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv") %>%
   mutate(location="US") %>%
   select(location, everything())
 
 ### Read in population data from census
-population_county <- get_acs(geography="county", variables=c("B01001_001"),geometry = FALSE, year=2018) %>%
+population_county <- get_acs(geography="county", variables=c("B01001_001"),geometry = FALSE, year=2019) %>%
   clean_names() %>%
   select(fips_code=geoid,
          population=estimate) 
 
-population_state<- get_acs(geography="state", variables=c("B01001_001"),geometry = FALSE, year=2018) %>%
+population_state<- get_acs(geography="state", variables=c("B01001_001"),geometry = FALSE, year=2019) %>%
   clean_names() %>%
   select(fips_code=geoid,
          population=estimate) 
 
-population_us <- get_acs(geography="us", variables=c("B01001_001"),geometry = FALSE, year=2018) %>%
+population_us <- get_acs(geography="us", variables=c("B01001_001"),geometry = FALSE, year=2019) %>%
   clean_names() %>%
   select(fips_code=geoid,
          population=estimate) 
@@ -130,15 +130,15 @@ covid_state_us <- covid_state %>%
 
 ### Dataframe of current cases 
 covid_county_current <- covid_county %>%
-  filter(date == "2020-08-30") 
+  filter(date == "2021-08-30") 
 
 covid_state_us_current <- covid_state_us %>%
-  filter(date == "2020-08-30")
+  filter(date == "2021-08-30")
 
 ### Dataframe of cumulative monthly cases per capita as of 30th day of each month
 
 covid_county_monthly_case_rate <- covid_county %>%
-  filter(str_detect(date,"2020-03-30|2020-04-30|2020-05-30|2020-06-30|2020-07-30|2020-08-30")) %>%
+  filter(str_detect(date,"2021-03-30|2021-04-30|2021-05-30|2021-06-30|2021-07-30|2021-08-30")) %>%
   mutate(date = paste0("d-",date)) %>%
   mutate(cases_per_1000 = cases/population*1000) %>%
   select(county:date, cases_per_1000) %>%
@@ -147,18 +147,25 @@ covid_county_monthly_case_rate <- covid_county %>%
 
 ### Dataframe of cumulative monthly deaths per capita as of 30th day of each month
 covid_county_monthly_death_rate <- covid_county %>%
-  filter(str_detect(date,"2020-03-30|2020-04-30|2020-05-30|2020-06-30|2020-07-30|2020-08-30")) %>%
+  filter(str_detect(date,"2021-03-30|2021-04-30|2021-05-30|2021-06-30|2021-07-30|2021-08-30")) %>%
   mutate(date = paste0("d-",date)) %>%
   mutate(deaths_per_1000 = deaths/population*1000) %>%
   select(county:date, deaths_per_1000) %>%
   pivot_wider(names_from = date, values_from = deaths_per_1000) %>%
   mutate_if(is.numeric , replace_na, replace = 0)
 
+### Write this shit to csv because stupid googlesheets4 token not working
+
+write_csv(covid_county_current,"data_export/covid_county_current.csv")
+write_csv(covid_state_us_current,"data_export/covid_state_us_current.csv")
+write_csv(covid_county_monthly_case_rate,"data_export/covid_county_monthly_case_rate.csv")
+write_csv(covid_county_monthly_death_rate,"data_export/covid_county_monthly_death_rate.csv")
+
 # Write sheets
-sheet_write(covid_county_current, ss = intro_to_data_journalism_1 , sheet = "covid_county_current")
-sheet_write(covid_state_us_current, ss = intro_to_data_journalism_1 , sheet = "covid_state_us_current")
-sheet_write(covid_county_monthly_case_rate, ss = intro_to_data_journalism_1 , sheet = "covid_county_monthly_case_rate")
-sheet_write(covid_county_monthly_death_rate, ss = intro_to_data_journalism_1 , sheet = "covid_county_monthly_death_rate")
+#sheet_write(covid_county_current, ss = intro_to_data_journalism_1 , sheet = "covid_county_current")
+#sheet_write(covid_state_us_current, ss = intro_to_data_journalism_1 , sheet = "covid_state_us_current")
+#sheet_write(covid_county_monthly_case_rate, ss = intro_to_data_journalism_1 , sheet = "covid_county_monthly_case_rate")
+#sheet_write(covid_county_monthly_death_rate, ss = intro_to_data_journalism_1 , sheet = "covid_county_monthly_death_rate")
 
 ```
 
